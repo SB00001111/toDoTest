@@ -6,6 +6,13 @@ export const styles = makeStyles((theme) => ({
     justifyContent: 'space-between',
     marginTop: 60,
     marginBottom: 40,
+
+    [theme.breakpoints.down('md')]: {
+      flexDirection: 'column',
+      gap: 10,
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
   },
   pageBtn: {
     fontWeight: 'bold',

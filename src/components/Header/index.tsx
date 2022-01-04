@@ -43,7 +43,9 @@ export default function Header({ toDos, setToDos }: HeaderProps) {
           </Button>
         </Link>
       </div>
-      <AddToDo setToDos={setToDos} toDos={toDos} />
+      <div>
+        <AddToDo setToDos={setToDos} toDos={toDos} />
+      </div>
     </div>
   );
 }
